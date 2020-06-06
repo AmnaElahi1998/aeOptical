@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+.h-70
+{
+    height: 70px;
+}
+
+
+
+.logo
+{
+    margin-left: 57px;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-size:30px;
+}
+
+
+
+.navbar-nav
+{
+    margin-left: 30px;
+}
+
+
+
+
+
+.my-li
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.f-70
+{
+    margin-top: 120px;
+    height: 350px;
+}
+
+
+.card
+{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.11);
+    background: white;
+    box-shadow: 2px 2px 25px 2px #E8E8E8;
+    z-index: 1;
+}
+
+.card-title
+{
+    font-size: 22px;
+    
+}
+
+.btn
+{
+    font-size: 17px;
+}
+.footer-top
+{
+padding: 80px 0;
+    margin-top: 70px;
+    color: white;
+    
+}
+
+.segment-one h2{
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.segment-one h2:before
+{
+content: '|';
+color: white;
+padding-right: 10px;
+}
+
+
+.segment-one p{
+    font-size: 25px;
+    margin: 12px 0;
+}
+
+
+.segment-two h2{
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.segment-two h2:before
+{
+content: '|';
+color: white;
+}
+
+
+.segment-two a
+{
+    font-size: 25px;
+    margin: 12px 0;
+}
+
+.segment-three h2{
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before
+{
+content: '|';
+color: white;
+padding-right: 10px ;
+}
+
+@media only screen  and (min-width: 768 px) and (max-width: 991px) 
+{
+    .md-mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen  and (min-width: 767 px)
+{
+    .sm-mb-30
+    {
+        margin-bottom: 30px;
+    }
+
+    .footer-top
+    {
+        padding: 50px 0;
+    }
+}
+
+.footer-bottom-text
+{
+    text-align: center;
+    line-height: 75px;
+    color: white    ;
+    font-size: 20px;
+}
